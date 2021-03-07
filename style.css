@@ -1,0 +1,27 @@
+#movies img, #movie img {
+    width: 100%;
+    
+}
+
+#movies .col-md-3 .well {
+    height: 390px;
+}
+
+#movies .col-md-3 img{
+    height: 240px;
+} 
+
+ h5{
+    font-size: 20px;
+}
+
+#movies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: 100px auto;
+    max-width: 800px;
+    
+}
+
+
